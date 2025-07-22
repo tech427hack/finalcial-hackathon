@@ -1,0 +1,79 @@
+/*Chat bot CSS*/
+/* src/components/ChatBot.css */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050;
+  }
+  
+  .chatbot-box {
+    width: 500px;
+    height: 560px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatbot-header {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .chatbot-messages {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f1f1f1;
+  }
+  
+  .chat-msg {
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    border-radius: 12px;
+    max-width: 95%;
+    font-size: 0.9rem;
+    word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap; /* optional, but useful */
+  }
+  
+  .chat-msg.bot {
+    background-color: #e0e0e0;
+    align-self: flex-start;
+  }
+  
+  .chat-msg.user {
+    background-color: #cce5ff;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  .chatbot-input {
+    background: #fff;
+  }
+  
+  .chatbot-toggle-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chatbot-box {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.chatbot-messages {
+  overflow-y: auto;
+  max-height: 400px;
+  padding-right: 8px;
+  scroll-behavior: smooth;
+}
