@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-vertext-ai
+  ai:
+    vertex:
+      ai:
+        gemini:
+          project-id: test-vertext-465516
+          location: us-central1
+          chat:
+            options:
+              model: gemini-2.0-flash-001
