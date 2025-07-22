@@ -121,7 +121,7 @@ setInput("");
                     lineHeight: "1.5",
                   }}
                 >
-                  {msg.text}
+                  <ReactMarkdown>{msg.text}</ReactMarkdown>
                 </span>
 
                 

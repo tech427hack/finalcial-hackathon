@@ -34,7 +34,7 @@ public class ShgAgentTools {
 	        		+ "			    To join in to community mobile number & Adhar card is mandatory.";
 	    }
 
-		@Tool(description = "provide Member details based on given member details name,id,email id,aadhaar number,phone number,gender")
+		@Tool(description = "provide Member details based on given member details name,id,email,aadhaar number,phone number and gender")
 		String getMemberDetailsBasedOnGivenMemberDetails(String userInput) {
 			System.out.println("getMemberDetailsBasedOnGivenMemberDetails .. called ");
 			return processMemberQuestion(userInput);
@@ -45,7 +45,7 @@ public class ShgAgentTools {
 			 String prompt = """
 					 You have access to a database with the following table:
 					 member(id INTEGER, 
-					 		aadhaar VARCHAR,
+					 		aadhaar character varying(255),
 					 		email character varying(255),
 					 		phone character varying(255),
 					 		name  character varying(255),
@@ -53,7 +53,7 @@ public class ShgAgentTools {
 
 					 User will provide input in the form of either:
 					 - "ID: <value>" to search by 'id'
-					 - "Adhar: <value>" to search by 'adhar'
+					 - "Aadhaar: <value>" to search by 'aadhaar'
 					 - "Phone: <value>" to search by 'phone'
 
 					 User input: "%s"
@@ -90,6 +90,8 @@ public class ShgAgentTools {
 					if (rows.isEmpty()) {
 						return "No results found.";
 					}
+					System.out.println("Query execution is completed Result size:"+rows.size());
+					
 					return rows.toString();
 				} catch (Exception e) {
 					return "Something went wrong .. please try agin";
