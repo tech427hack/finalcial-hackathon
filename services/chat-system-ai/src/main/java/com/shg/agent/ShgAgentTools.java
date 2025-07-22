@@ -73,7 +73,6 @@ public class ShgAgentTools {
 		        if (!sql.trim().toLowerCase().startsWith("select")) {
 		            throw new IllegalArgumentException("Only SELECT queries are allowed.");
 		        }
-
 		        return executeQuery(sql);
 		    }
 
