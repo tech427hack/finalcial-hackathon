@@ -83,14 +83,18 @@ public class ShgAgentTools {
 		                  .trim();
 		    }
 
-		    private String executeQuery(String sql) {
-		    	 System.out.println("Query ::: "+sql);
-		        List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql);
-		        System.out.println("Query execution is completed ..... ");
-		        if (rows.isEmpty()) {
-		            return "No results found.";
-		        }
-		        return rows.toString();
-		    }
+			private String executeQuery(String sql) {
+				System.out.println("Query ::: " + sql);
+				try {
+					List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql);
+					System.out.println("Query execution is completed ..... ");
+					if (rows.isEmpty()) {
+						return "No results found.";
+					}
+					return rows.toString();
+				} catch (Exception e) {
+					return "Something went wrong .. please try agin";
+				}
+			}
 
 }
