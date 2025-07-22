@@ -24,7 +24,7 @@ public class ShgAgentTools {
 	  		+ "apply process and admin details.Documents required to form a group or to apply loan")
 	    String getSHGDetails() {
 	    	System.out.println("getSHGDetails .. called ");
-	        return "			    You are giving the answers for SHD community savings by group of people can form a group\r\n"
+	        return "			    You are giving the answers for SHG community savings by group of people can form a group\r\n"
 	        		+ "			    and can do saving out of it Users can take loan with proper details.\r\n"
 	        		+ "			    From this savings group community can generate profits them self.\r\n"
 	        		+ "			    Address of SDH community group Sarjapura,Bangalore,India,Ph:9986781724\r\n"
