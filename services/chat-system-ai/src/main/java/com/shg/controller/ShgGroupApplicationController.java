@@ -1,4 +1,4 @@
-package com.test.spring_vertext_ai;
+package com.shg.controller;
 
 import java.util.List;
 
@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class HistoryController {
+public class ShgGroupApplicationController {
 
     private final ChatClient chatClient;
 
-    public HistoryController(ChatClient.Builder builder) {
+    public ShgGroupApplicationController(ChatClient.Builder builder) {
         this.chatClient = builder.build();
     }
 
