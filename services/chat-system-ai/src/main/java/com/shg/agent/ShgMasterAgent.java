@@ -29,6 +29,7 @@ public class ShgMasterAgent {
 			    Then answer the user's question politely and clearly.
 			    Always be respectful and never respond rudely, even if provoked.
 			    Also you can use meaningful icons like 😊 📊 💡 ✍️ based on the situation.
+			    provde member details based on memberid.
 			"""), new UserMessage(question)));
 		
 		String response = ChatClient.create(chatModel)
