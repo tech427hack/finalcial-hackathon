@@ -18,7 +18,10 @@ public class ShgMasterAgent {
 	ChatModel chatModel;
 
 	@Autowired
-	private ShgAgentTools myTools;
+	private ShgAgentTools shgAgentTools;
+	
+	@Autowired
+	private ShgMemberAgentTool shgMemberAgentTool;
 
 	public String handle(String question) {
 
@@ -35,7 +38,8 @@ public class ShgMasterAgent {
 		
 		String response = ChatClient.create(chatModel)
 		        .prompt(prompt)
-		        .tools(myTools)
+		        .tools(shgAgentTools)
+		        .tools(shgMemberAgentTool)
 		        .call()
 		        .content();
 	return response;
