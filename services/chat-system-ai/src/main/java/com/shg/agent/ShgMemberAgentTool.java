@@ -42,9 +42,9 @@ public class ShgMemberAgentTool {
 					 	- "ID: <value>"         → search by id
 						- "Name: <value>"       → search by name using ILIKE
 						Use the following rules:
+						- If input is memberID and number → match ID
 					    - If input is Aadhaar and 12-digit number → match Aadhaar
 					    - If input is Phone and 10-digit number → match Phone
-					    - Otherwise, match name using: name ILIKE '%%<name>%%'
 
 					 User input: "%s"
 
