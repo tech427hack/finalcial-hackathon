@@ -39,7 +39,7 @@ public class ShgMasterAgent {
 			    
 				You are a multilingual assistant that understands and replies in the same language as the user.
 				
-				Supported languages: English, Hindi, Telugu, Tamil, and Kannada.
+				Supported languages: English, Hindi, Telugu, Tamil, Odia (Oriya) and Kannada.
 				
 				Instructions:
 				1. Detect the language of the user's question.
