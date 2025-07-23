@@ -1,0 +1,756 @@
+2025-07-23T08:14:11.857+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:14:11.859+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2025-07-23T08:14:11.898+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection org.postgresql.jdbc.PgConnection@39fec510
+2025-07-23T08:14:11.899+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2025-07-23T08:14:11.909+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-16)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:14:11.923+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:14:11.923+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:14:11.950+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:14:11.998+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:14:12.006+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:14:12.013+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.47 seconds (process running for 40104.451)
+2025-07-23T08:14:12.015+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:14:23.646+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:14:23.648+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-114] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:14:23.679+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:14:23.693+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-114] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:14:23.694+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-114] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2025-07-23T08:14:23.695+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-114] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:14:23.774+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:14:23.774+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:14:23.892+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:14:23.894+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:14:23.939+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:14:23.940+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:14:23.940+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:14:23.966+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:14:23.966+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
+2025-07-23T08:14:23.983+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:14:23.985+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:14:23.990+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:14:23.991+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2025-07-23T08:14:24.031+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-17 - Added connection org.postgresql.jdbc.PgConnection@241e525d
+2025-07-23T08:14:24.032+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2025-07-23T08:14:24.040+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-17)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:14:24.053+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:14:24.053+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:14:24.076+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:14:24.127+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:14:24.133+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:14:24.137+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.379 seconds (process running for 40116.575)
+2025-07-23T08:14:24.138+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:14:40.373+05:30  INFO 12576 --- [spring-vertext-ai] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-23T08:14:40.374+05:30  INFO 12576 --- [spring-vertext-ai] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-23T08:14:40.375+05:30  INFO 12576 --- [spring-vertext-ai] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Question:do you see any exception in logs ?
+Master Agent received User question:do you see any exception in logs ?
+getLogsExceptionDetails .. called 
+2025-07-23T08:17:59.489+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:17:59.492+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-121] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:17:59.534+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:17:59.537+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-121] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:17:59.538+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-121] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2025-07-23T08:17:59.546+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-121] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:17:59.635+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:17:59.635+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:17:59.762+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:17:59.765+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:17:59.842+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:17:59.844+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:17:59.844+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:17:59.880+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:17:59.880+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 244 ms
+2025-07-23T08:17:59.905+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:17:59.908+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:17:59.914+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:17:59.914+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2025-07-23T08:17:59.951+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Added connection org.postgresql.jdbc.PgConnection@1eee9d0b
+2025-07-23T08:17:59.951+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2025-07-23T08:17:59.959+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-18)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:17:59.972+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:17:59.972+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:00.017+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:18:00.109+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:18:00.115+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:18:00.118+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.502 seconds (process running for 40332.556)
+2025-07-23T08:18:00.119+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:18:08.666+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:18:08.667+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-136] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:18:08.697+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:18:08.708+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-136] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:08.709+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-136] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2025-07-23T08:18:08.711+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-136] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:18:08.797+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:18:08.797+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:18:08.907+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:18:08.909+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:18:08.959+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:18:08.959+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:18:08.959+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:18:08.987+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:18:08.987+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 189 ms
+2025-07-23T08:18:09.002+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:18:09.005+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:18:09.013+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:18:09.013+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2025-07-23T08:18:09.051+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Added connection org.postgresql.jdbc.PgConnection@4bd0e8b7
+2025-07-23T08:18:09.051+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2025-07-23T08:18:09.059+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-19)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:18:09.069+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:18:09.069+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:09.096+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:18:09.144+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:18:09.151+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:18:09.154+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.376 seconds (process running for 40341.592)
+2025-07-23T08:18:09.156+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:18:15.671+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:18:15.672+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-142] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:18:15.707+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:18:15.719+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-142] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:15.719+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-142] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2025-07-23T08:18:15.720+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-142] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:18:15.805+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:18:15.805+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:18:15.927+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:18:15.929+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:18:15.978+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:18:15.979+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:18:15.979+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:18:16.008+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:18:16.008+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 202 ms
+2025-07-23T08:18:16.024+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:18:16.026+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:18:16.033+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:18:16.033+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2025-07-23T08:18:16.075+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Added connection org.postgresql.jdbc.PgConnection@45a2d80
+2025-07-23T08:18:16.075+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2025-07-23T08:18:16.084+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-20)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:18:16.096+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:18:16.096+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:16.119+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:18:16.165+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:18:16.171+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:18:16.175+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.391 seconds (process running for 40348.613)
+2025-07-23T08:18:16.176+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+String 2025-07-23T08:18:28.816+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:18:28.818+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-149] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:18:28.857+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:18:28.869+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-149] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:28.870+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-149] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2025-07-23T08:18:28.871+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-149] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:18:28.960+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:18:28.960+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:18:29.072+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:18:29.074+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:18:29.117+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:18:29.118+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:18:29.118+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:18:29.142+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:18:29.142+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 181 ms
+2025-07-23T08:18:29.155+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:18:29.157+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:18:29.162+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:18:29.163+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2025-07-23T08:18:29.206+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-21 - Added connection org.postgresql.jdbc.PgConnection@692474ce
+2025-07-23T08:18:29.206+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2025-07-23T08:18:29.215+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-21)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:18:29.228+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:18:29.228+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:29.256+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:18:29.301+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:18:29.307+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:18:29.309+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.366 seconds (process running for 40361.746)
+2025-07-23T08:18:29.309+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:18:56.214+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:18:56.216+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-156] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:18:56.252+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:18:56.263+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-156] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:56.263+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-156] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2025-07-23T08:18:56.265+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-156] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:18:56.336+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:18:56.336+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:18:56.446+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:18:56.448+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:18:56.500+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:18:56.500+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:18:56.501+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:18:56.527+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:18:56.527+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
+2025-07-23T08:18:56.551+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:18:56.554+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:18:56.561+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:18:56.561+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2025-07-23T08:18:56.605+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Added connection org.postgresql.jdbc.PgConnection@3a809636
+2025-07-23T08:18:56.605+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2025-07-23T08:18:56.615+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-22)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:18:56.629+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:18:56.629+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:18:56.655+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:18:56.701+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:18:56.708+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:18:56.710+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.391 seconds (process running for 40389.149)
+2025-07-23T08:18:56.711+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:19:11.380+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:19:11.380+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-163] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:19:11.405+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:19:11.418+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-163] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:19:11.418+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-163] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2025-07-23T08:19:11.420+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-163] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:19:11.497+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:19:11.497+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:19:11.610+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:19:11.612+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:19:11.655+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:19:11.656+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:19:11.656+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:19:11.680+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:19:11.680+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 181 ms
+2025-07-23T08:19:11.694+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:19:11.696+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:19:11.701+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:19:11.702+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Starting...
+2025-07-23T08:19:11.738+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-23 - Added connection org.postgresql.jdbc.PgConnection@29a4b457
+2025-07-23T08:19:11.738+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Start completed.
+2025-07-23T08:19:11.747+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-23)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:19:11.758+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:19:11.758+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:19:11.782+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:19:11.829+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:19:11.834+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:19:11.835+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.354 seconds (process running for 40404.274)
+2025-07-23T08:19:11.836+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:19:16.334+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:19:16.335+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-170] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:19:16.365+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:19:16.377+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-170] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:19:16.377+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-170] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown initiated...
+2025-07-23T08:19:16.380+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-170] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:19:16.458+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:19:16.458+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:19:16.560+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:19:16.561+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:19:16.607+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:19:16.607+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:19:16.607+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:19:16.634+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:19:16.634+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 175 ms
+2025-07-23T08:19:16.649+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:19:16.651+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:19:16.656+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:19:16.657+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Starting...
+2025-07-23T08:19:16.694+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Added connection org.postgresql.jdbc.PgConnection@5681c4e2
+2025-07-23T08:19:16.695+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Start completed.
+2025-07-23T08:19:16.702+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-24)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:19:16.713+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:19:16.713+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:19:16.735+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:19:16.774+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:19:16.780+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:19:16.782+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.34 seconds (process running for 40409.22)
+2025-07-23T08:19:16.782+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:19:35.572+05:30  INFO 12576 --- [spring-vertext-ai] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-23T08:19:35.573+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-177] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-23T08:19:35.608+05:30  INFO 12576 --- [spring-vertext-ai] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-23T08:19:35.622+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-177] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:19:35.623+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-177] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
+2025-07-23T08:19:35.626+05:30  INFO 12576 --- [spring-vertext-ai] [     Thread-177] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-23T08:19:35.715+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Starting ShgGroupApplication using Java 17.0.12 with PID 12576 (D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai\target\classes started by DELL in D:\ZestPrime\Hackathon\hackathon2025\finalcial-hackathon\services\chat-system-ai)
+2025-07-23T08:19:35.715+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-07-23T08:19:35.827+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-23T08:19:35.829+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-07-23T08:19:35.875+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-23T08:19:35.875+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-23T08:19:35.875+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-23T08:19:35.902+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-23T08:19:35.903+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 187 ms
+2025-07-23T08:19:35.917+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-23T08:19:35.919+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-23T08:19:35.924+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-23T08:19:35.925+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2025-07-23T08:19:36.071+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Added connection org.postgresql.jdbc.PgConnection@5e3687c
+2025-07-23T08:19:36.071+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Start completed.
+2025-07-23T08:19:36.080+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-25)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-23T08:19:36.097+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-23T08:19:36.098+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-23T08:19:36.133+05:30  WARN 12576 --- [spring-vertext-ai] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-23T08:19:36.197+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-23T08:19:36.205+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-23T08:19:36.209+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] com.shg.ShgGroupApplication              : Started ShgGroupApplication in 0.51 seconds (process running for 40428.647)
+2025-07-23T08:19:36.210+05:30  INFO 12576 --- [spring-vertext-ai] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-23T08:20:05.436+05:30  INFO 12576 --- [spring-vertext-ai] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-23T08:20:05.436+05:30  INFO 12576 --- [spring-vertext-ai] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-23T08:20:05.437+05:30  INFO 12576 --- [spring-vertext-ai] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Question:get member details of id 4
+Master Agent received User question:get member details of id 4
+getMemberDetailsBasedOnGivenMemberDetails .. called 
+prompt:You have access to a database with the following table:
+member(id INTEGER,
+		aadhaar character varying(255),
+		email character varying(255),
+		phone character varying(255),
+		name  character varying(255),
+		gender )
+
+User will provide input in the form of either:
+- "ID: <value>" to search by 'id'
+- "Aadhaar: <value>" to search by 'aadhaar'
+- "Phone: <value>" to search by 'phone'
+
+User input: "4"
+
+Write a valid SQL SELECT query to get all columns from the 'member' table based on the user input.
+ - member by name (use case-insensitive LIKE for name matching)
+ If name is mentioned, use: name ILIKE '%<name>%'
+Return ONLY raw SQL. No explanation. No markdown. No comments.
+
+Generated SQL:SELECT * FROM member WHERE id = 4
+Query ::: SELECT * FROM member WHERE id = 4
+Query execution is completed ..... 
+Query execution is completed Result size:1
+Question:3
+Master Agent received User question:3
+getMemberDetailsBasedOnGivenMemberDetails .. called 
+prompt:You have access to a database with the following table:
+member(id INTEGER,
+		aadhaar character varying(255),
+		email character varying(255),
+		phone character varying(255),
+		name  character varying(255),
+		gender )
+
+User will provide input in the form of either:
+- "ID: <value>" to search by 'id'
+- "Aadhaar: <value>" to search by 'aadhaar'
+- "Phone: <value>" to search by 'phone'
+
+User input: "3"
+
+Write a valid SQL SELECT query to get all columns from the 'member' table based on the user input.
+ - member by name (use case-insensitive LIKE for name matching)
+ If name is mentioned, use: name ILIKE '%<name>%'
+Return ONLY raw SQL. No explanation. No markdown. No comments.
+
+Generated SQL:SELECT * FROM member WHERE id = 3
+Query ::: SELECT * FROM member WHERE id = 3
+Query execution is completed ..... 
+Query execution is completed Result size:1
+Question:4
+Master Agent received User question:4
+getMemberDetailsBasedOnGivenMemberDetails .. called 
+prompt:You have access to a database with the following table:
+member(id INTEGER,
+		aadhaar character varying(255),
+		email character varying(255),
+		phone character varying(255),
+		name  character varying(255),
+		gender )
+
+User will provide input in the form of either:
+- "ID: <value>" to search by 'id'
+- "Aadhaar: <value>" to search by 'aadhaar'
+- "Phone: <value>" to search by 'phone'
+
+User input: "4"
+
+Write a valid SQL SELECT query to get all columns from the 'member' table based on the user input.
+ - member by name (use case-insensitive LIKE for name matching)
+ If name is mentioned, use: name ILIKE '%<name>%'
+Return ONLY raw SQL. No explanation. No markdown. No comments.
+
+Generated SQL:SELECT * FROM member WHERE id = 4
+Query ::: SELECT * FROM member WHERE id = 4
+Query execution is completed ..... 
+Query execution is completed Result size:1
+Question:5
+Master Agent received User question:5
+getMemberDetailsBasedOnGivenMemberDetails .. called 
+prompt:You have access to a database with the following table:
+member(id INTEGER,
+		aadhaar character varying(255),
+		email character varying(255),
+		phone character varying(255),
+		name  character varying(255),
+		gender )
+
+User will provide input in the form of either:
+- "ID: <value>" to search by 'id'
+- "Aadhaar: <value>" to search by 'aadhaar'
+- "Phone: <value>" to search by 'phone'
+
+User input: "5"
+
+Write a valid SQL SELECT query to get all columns from the 'member' table based on the user input.
+ - member by name (use case-insensitive LIKE for name matching)
+ If name is mentioned, use: name ILIKE '%<name>%'
+Return ONLY raw SQL. No explanation. No markdown. No comments.
+
+Generated SQL:SELECT * FROM member WHERE id = 5
+Query ::: SELECT * FROM member WHERE id = 5
+Query execution is completed ..... 
+Query execution is completed Result size:1
+Question:6
+Master Agent received User question:6
+2025-07-23T08:20:24.840+05:30  WARN 12576 --- [spring-vertext-ai] [nio-8081-exec-6] o.s.a.r.a.SpringAiRetryAutoConfiguration : Retry error. Retry count: 1, Exception: Failed to generate content
+
+java.lang.RuntimeException: Failed to generate content
+	at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.getContentResponse(VertexAiGeminiChatModel.java:778) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+	at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.lambda$internalCall$4(VertexAiGeminiChatModel.java:409) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:357) ~[spring-retry-2.0.12.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:230) ~[spring-retry-2.0.12.jar:na]
+	at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.lambda$internalCall$5(VertexAiGeminiChatModel.java:405) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.15.1.jar:1.15.1]
+	at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.internalCall(VertexAiGeminiChatModel.java:405) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+	at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.call(VertexAiGeminiChatModel.java:392) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+	at org.springframework.ai.chat.client.advisor.ChatModelCallAdvisor.adviseCall(ChatModelCallAdvisor.java:54) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextCall$1(DefaultAroundAdvisorChain.java:110) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.15.1.jar:1.15.1]
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextCall(DefaultAroundAdvisorChain.java:110) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatClientResponse$1(DefaultChatClient.java:469) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.15.1.jar:1.15.1]
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:467) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:446) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.content(DefaultChatClient.java:441) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+	at com.shg.agent.ShgMasterAgent.handle(ShgMasterAgent.java:46) ~[classes/:na]
+	at com.shg.controller.ShgGroupApplicationController.getAnswer(ShgGroupApplicationController.java:55) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: com.google.api.gax.rpc.ResourceExhaustedException: io.grpc.StatusRuntimeException: RESOURCE_EXHAUSTED: Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+	at com.google.api.gax.rpc.ApiExceptionFactory.createException(ApiExceptionFactory.java:100) ~[gax-2.65.0.jar:2.65.0]
+	at com.google.api.gax.rpc.ApiExceptionFactory.createException(ApiExceptionFactory.java:41) ~[gax-2.65.0.jar:2.65.0]
+	at com.google.api.gax.grpc.GrpcApiExceptionFactory.create(GrpcApiExceptionFactory.java:86) ~[gax-grpc-2.65.0.jar:2.65.0]
+	at com.google.api.gax.grpc.GrpcApiExceptionFactory.create(GrpcApiExceptionFactory.java:66) ~[gax-grpc-2.65.0.jar:2.65.0]
+	at com.google.api.gax.grpc.GrpcExceptionCallable$ExceptionTransformingFuture.onFailure(GrpcExceptionCallable.java:97) ~[gax-grpc-2.65.0.jar:2.65.0]
+	at com.google.api.core.ApiFutures$1.onFailure(ApiFutures.java:84) ~[api-common-2.48.0.jar:2.48.0]
+	at com.google.common.util.concurrent.Futures$CallbackListener.run(Futures.java:1132) ~[guava-33.4.0-jre.jar:na]
+	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:31) ~[guava-33.4.0-jre.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1307) ~[guava-33.4.0-jre.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:1070) ~[guava-33.4.0-jre.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:819) ~[guava-33.4.0-jre.jar:na]
+	at io.grpc.stub.ClientCalls$GrpcFuture.setException(ClientCalls.java:651) ~[grpc-stub-1.70.0.jar:1.70.0]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:621) ~[grpc-stub-1.70.0.jar:1.70.0]
+	at io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[grpc-api-1.70.0.jar:1.70.0]
+	at com.google.api.gax.grpc.ChannelPool$ReleasingClientCall$1.onClose(ChannelPool.java:569) ~[gax-grpc-2.65.0.jar:2.65.0]
+	at io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[grpc-api-1.70.0.jar:1.70.0]
+	at com.google.api.gax.grpc.GrpcLoggingInterceptor$1$1.onClose(GrpcLoggingInterceptor.java:98) ~[gax-grpc-2.65.0.jar:2.65.0]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:564) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:72) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:729) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:710) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133) ~[grpc-core-1.70.0.jar:1.70.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	... 1 common frames omitted
+	Suppressed: com.google.api.gax.rpc.AsyncTaskException: Asynchronous task failed
+		at com.google.api.gax.rpc.ApiExceptions.callAndTranslateApiException(ApiExceptions.java:57) ~[gax-2.65.0.jar:2.65.0]
+		at com.google.api.gax.rpc.UnaryCallable.call(UnaryCallable.java:112) ~[gax-2.65.0.jar:2.65.0]
+		at com.google.cloud.vertexai.generativeai.GenerativeModel.generateContent(GenerativeModel.java:467) ~[google-cloud-vertexai-1.22.0.jar:1.22.0]
+		at com.google.cloud.vertexai.generativeai.GenerativeModel.generateContent(GenerativeModel.java:454) ~[google-cloud-vertexai-1.22.0.jar:1.22.0]
+		at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.getContentResponse(VertexAiGeminiChatModel.java:775) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+		at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.lambda$internalCall$4(VertexAiGeminiChatModel.java:409) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+		at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:357) ~[spring-retry-2.0.12.jar:na]
+		at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:230) ~[spring-retry-2.0.12.jar:na]
+		at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.lambda$internalCall$5(VertexAiGeminiChatModel.java:405) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+		at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.15.1.jar:1.15.1]
+		at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.internalCall(VertexAiGeminiChatModel.java:405) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+		at org.springframework.ai.vertexai.gemini.VertexAiGeminiChatModel.call(VertexAiGeminiChatModel.java:392) ~[spring-ai-vertex-ai-gemini-1.0.0.jar:1.0.0]
+		at org.springframework.ai.chat.client.advisor.ChatModelCallAdvisor.adviseCall(ChatModelCallAdvisor.java:54) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+		at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextCall$1(DefaultAroundAdvisorChain.java:110) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+		at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.15.1.jar:1.15.1]
+		at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextCall(DefaultAroundAdvisorChain.java:110) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+		at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatClientResponse$1(DefaultChatClient.java:469) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+		at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.15.1.jar:1.15.1]
+		at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:467) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+		at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:446) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+		at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.content(DefaultChatClient.java:441) ~[spring-ai-client-chat-1.0.0.jar:1.0.0]
+		at com.shg.agent.ShgMasterAgent.handle(ShgMasterAgent.java:46) ~[classes/:na]
+		at com.shg.controller.ShgGroupApplicationController.getAnswer(ShgGroupApplicationController.java:55) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.42.jar:6.0]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+		... 1 common frames omitted
+Caused by: io.grpc.StatusRuntimeException: RESOURCE_EXHAUSTED: Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+	at io.grpc.Status.asRuntimeException(Status.java:532) ~[grpc-api-1.70.0.jar:1.70.0]
+	... 18 common frames omitted
+
+2025-07-23T08:20:24.855+05:30 ERROR 12576 --- [spring-vertext-ai] [nio-8081-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Failed to generate content] with root cause
+
+io.grpc.StatusRuntimeException: RESOURCE_EXHAUSTED: Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+	at io.grpc.Status.asRuntimeException(Status.java:532) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:621) ~[grpc-stub-1.70.0.jar:1.70.0]
+	at io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[grpc-api-1.70.0.jar:1.70.0]
+	at com.google.api.gax.grpc.ChannelPool$ReleasingClientCall$1.onClose(ChannelPool.java:569) ~[gax-grpc-2.65.0.jar:2.65.0]
+	at io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[grpc-api-1.70.0.jar:1.70.0]
+	at io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[grpc-api-1.70.0.jar:1.70.0]
+	at com.google.api.gax.grpc.GrpcLoggingInterceptor$1$1.onClose(GrpcLoggingInterceptor.java:98) ~[gax-grpc-2.65.0.jar:2.65.0]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:564) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:72) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:729) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:710) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[grpc-core-1.70.0.jar:1.70.0]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133) ~[grpc-core-1.70.0.jar:1.70.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+

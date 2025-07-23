@@ -19,9 +19,10 @@ public class ShgMasterAgent {
 
 	@Autowired
 	private ShgAgentTools shgAgentTools;
-	
 	@Autowired
 	private ShgMemberAgentTool shgMemberAgentTool;
+	@Autowired
+	private ShgLogsAgent shgLogsAgent; 
 
 	public String handle(String question) {
 
@@ -40,6 +41,7 @@ public class ShgMasterAgent {
 		        .prompt(prompt)
 		        .tools(shgAgentTools)
 		        .tools(shgMemberAgentTool)
+		        .tools(shgLogsAgent)
 		        .call()
 		        .content();
 	return response;
