@@ -42,7 +42,6 @@ public class ShgLogsAgent {
 	            🔍 From the logs, extract only the most relevant part that matches the exception(s) the user is asking about.
 	            Include the timestamp and 3-4 lines around the exception to give context.
 	            Also date and time stamp when it occured.
-	             		
 	            Format the response in **markdown** and make it readable.
 	            """;
 

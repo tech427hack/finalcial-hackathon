@@ -21,7 +21,7 @@ public class ShgMemberAgentTool {
 	 private JdbcTemplate jdbcTemplate;
 	
 
-		@Tool(description = "provide Member details based on given member details name,id,email,aadhaar number,phone number and gender")
+		@Tool(description = "provide Member details based on given member inputs name,id,email,aadhaar number,phone number and gender")
 		String getMemberDetailsBasedOnGivenMemberDetails(String userInput) {
 			System.out.println("getMemberDetailsBasedOnGivenMemberDetails .. called ");
 			return processMemberQuestion(userInput);
@@ -39,14 +39,17 @@ public class ShgMemberAgentTool {
 					 		gender )
 
 					 User will provide input in the form of either:
-					 - "ID: <value>" to search by 'id'
-					 - "Aadhaar: <value>" to search by 'aadhaar'
-					 - "Phone: <value>" to search by 'phone'
+					 	- "ID: <value>"         → search by id
+						- "Name: <value>"       → search by name using ILIKE
+						Use the following rules:
+					    - If input is Aadhaar and 12-digit number → match Aadhaar
+					    - If input is Phone and 10-digit number → match Phone
+					    - Otherwise, match name using: name ILIKE '%%<name>%%'
 
 					 User input: "%s"
 
 					 Write a valid SQL SELECT query to get all columns from the 'member' table based on the user input.
-			 		 - member by name (use case-insensitive LIKE for name matching)
+			 		 - member by name (use case-insensitive ILIKE for name matching)
 			 		 If name is mentioned, use: name ILIKE '%%<name>%%'
 					 Return ONLY raw SQL. No explanation. No markdown. No comments.
 					 """.formatted(userInput);
