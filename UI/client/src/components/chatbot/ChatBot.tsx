@@ -57,8 +57,8 @@ setInput("");
         <div
           className="chatbot-box shadow"
           style={{
-            width: 480,
-            height: 520,
+            width: 550,
+            height: 550,
             display: "flex",
             flexDirection: "column",
             borderRadius: "12px",
