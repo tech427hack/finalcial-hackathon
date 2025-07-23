@@ -22,12 +22,13 @@ public class ShgLogsAgent {
 	    System.out.println("getLogsExceptionDetails .. called");
 
 	    String logsPath = "D:\\ZestPrime\\Hackathon\\hackathon2025\\finalcial-hackathon\\services\\chat-system-ai\\logs\\logs.txt";
+	    String fileUri = "file:///" + logsPath.replace("\\", "/"); // Make Windows path URI compatible
 
 	    try {
 	        // Read the whole log file as a single string
 	        String logContent = Files.readString(Paths.get(logsPath));
 
-	        // Ask the model to extract relevant exception section
+	        // Prompt to model
 	        String prompt = """
 	            You are a helpful assistant. The user is asking for exception-related log details.
 
@@ -40,12 +41,17 @@ public class ShgLogsAgent {
 
 	            🔍 From the logs, extract only the most relevant part that matches the exception(s) the user is asking about.
 	            Include the timestamp and 3-4 lines around the exception to give context.
-
-	            Respond in a clear, readable format.
+	            Also date and time stamp when it occured.
+	             		
+	            Format the response in **markdown** and make it readable.
 	            """;
 
 	        ChatResponse response = chatModel.call(new Prompt(prompt));
-	        return response.getResult().getOutput().getText().trim();
+	        String responseText = response.getResult().getOutput().getText().trim();
+
+	        // Append Full Path link in markdown
+	        String fullPathMarkdown = "\n\n📁 **Full Path**: [Open Log File](" + fileUri + ")";
+	        return responseText + fullPathMarkdown;
 
 	    } catch (IOException e) {
 	        return "❌ Failed to read log file: " + e.getMessage();
@@ -53,5 +59,7 @@ public class ShgLogsAgent {
 	        return "❌ Unexpected error: " + e.getMessage();
 	    }
 	}
+
+
 
 }
