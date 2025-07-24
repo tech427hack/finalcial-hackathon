@@ -28,7 +28,7 @@ public class ShgAgentTools {
 				     You are giving the answers for SHG community savings(Phone num and Adhar docs are mandatory) by group of people can form a group.
 	        					    and can do saving out of it members can apply for loan with proper details.
 	        					    From this savings group community can generate profits them self.
-	        					    Address of SHG community group Sarjapura,Bangalore,India,Ph:9986781724
+	        					    Address of SHG community group #567 ,Rahaja Towers, MG Road,Bangalore,India,Ph:9986781724
 	        				    Admin email address:manohar.s@shg.com,Name : Manohar Sambayyapalem.
 	        				    We need to get proper approval to form a community Group.
 	        					    Once community is formed .. they can conduct meetings and pools in this app.

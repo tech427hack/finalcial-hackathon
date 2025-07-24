@@ -24,6 +24,9 @@ public class ShgMasterAgent {
 	private ShgMemberAgentTool shgMemberAgentTool;
 	@Autowired
 	private ShgLogsAgent shgLogsAgent; 
+	
+	@Autowired
+	private ShgAgentCaseTool agentCaseTool;
 
 	public String handle(String question) {
 
@@ -37,16 +40,15 @@ public class ShgMasterAgent {
 			    Also you can display meaningful icons like 😊 📊 💡 ✍️ based on the situation and when display member/loan details.
 			    Provide member details based on member id.
 			    
-				You are a multilingual assistant that understands and replies in the same language as the user.
-				
 				Supported languages: English, Hindi, Telugu, Tamil, Odia (Oriya) and Kannada.
 				
 				Instructions:
 				1. Detect the language of the user's question.
-				2. Answer the question accurately in English internally.
-				3. Translate your response back into the same language the user used.
+				2. Internally answer in English.
+				3. If the input is not in English, translate your answer to that language.
+				4. If the input is in English, reply in English only.
 				
-				Always respond in the user's original language.
+				Always respond in the same language as user's input.
     
 			"""), new UserMessage(question)));
 		String response = ChatClient.create(chatModel)
@@ -54,6 +56,7 @@ public class ShgMasterAgent {
 		        .tools(shgAgentTools)
 		        .tools(shgMemberAgentTool)
 		        .tools(shgLogsAgent)
+		        .tools(agentCaseTool)
 		        .call()
 		        .content();
 	return response;
